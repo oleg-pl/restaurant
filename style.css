@@ -28,7 +28,7 @@
  }
 
 
- #logo {
+ .logo {
      background-image: url(logo.png);
      width: 162.194px;
      height: 45px;
@@ -90,7 +90,7 @@
      line-height: normal;
  }
 
- #subtext {
+ .subtext {
      max-width: 570px;
      margin-top: 15px;
      margin-bottom: 30px;
@@ -102,11 +102,11 @@
      line-height: 150%;
  }
 
- #getStarted {
+ .getStarted {
      text-decoration: none;
  }
 
- #getStarted>div {
+ .getStarted>div {
      width: 165px;
      height: 50px;
      border-radius: 54px;
@@ -120,7 +120,7 @@
 
  }
 
- #getStarted p {
+ .getStarted p {
      color: #FFF;
      font-family: Product Sans;
      font-size: 16px;
@@ -183,7 +183,7 @@
      line-height: normal;
  }
 
- .element>#main {
+ .element>.main {
      color: #000;
      font-family: Product Sans;
      font-size: 16px;
@@ -211,7 +211,7 @@
          margin-right: auto;
      }
 
-     #logo {
+     .logo {
          margin-right: 100px;
      }
  }
@@ -278,7 +278,8 @@
          border-top: none;
      }
 
-     #logo {
+
+     .logo {
          display: block;
      }
 
@@ -354,7 +355,7 @@
      width: 527px;
  }
 
- .howToWork p {
+ .howToWork #sector-name {
 
      color: #F16214;
      font-family: Product Sans;
@@ -575,7 +576,7 @@
 
  }
 
- #product #getStarted div {
+ #product .getStarted div {
      width: 200px;
  }
 
@@ -637,7 +638,7 @@
      margin: 0px;
  }
 
- #download p#upper {
+ #download p.upper {
      color: #000;
      font-family: Product Sans;
      font-size: 11px;
