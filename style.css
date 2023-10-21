@@ -331,6 +331,12 @@
 
  }
 
+ @media (max-width:420px) {
+     #feature {
+         width: 95%;
+     }
+ }
+
  .howToWork {
      width: 570px;
      margin-left: 938px;
